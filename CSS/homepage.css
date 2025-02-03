@@ -1,0 +1,346 @@
+/* ALL Common CSS Start */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", serif;
+}
+body{
+    background: #dddd;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1240px;
+    margin: 0px auto;
+}
+/* ALL Common CSS End */
+/* Headerpart CSS Start */
+#header{
+    width: 100%;
+    background: #ffffff;
+}
+.header_part{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+.logo{
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+.logo a img{
+    width: 185px;
+    height: 41px;
+}
+.menu_list{
+    width: 50%;
+}
+.menu_list ul li{
+    display: inline-block;
+    padding: 0px 30px;    
+}
+.menu_list ul li a{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.menu_bar{
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+.menu_bar a{
+    padding: 0px 20px;
+}
+/* Headerpart CSS End */
+/* Homepage CSS Start */
+/* Bannerpart CSS Start */
+#banner{
+    width: 100%;
+    background: url(../Images/Photos/HomebannerBG.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 160px;
+    padding-bottom: 115px;
+}
+.banner_part{
+    width: 50%;
+    margin-left: auto;
+    background: #FFF3E3;
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-bottom: 40px;
+    border-radius: 8px;
+}
+.banner_part h4{
+    color: #000000;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.banner_part h1{
+    font-size: 50px;
+    line-height: 65px;
+    color: #B88E2F;
+    padding-bottom: 25px;
+}
+.banner_part p{
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 40px;
+    color: #333333;
+}
+.banner_btn{
+    padding: 15px 50px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background: #B88E2F;
+    outline: none;
+    border: none;
+}
+/* Bannerpart CSS End */
+/* Roompart CSS Start */
+#rooms{
+    width: 100%;
+    background: white;
+}
+.common_text{
+    text-align: center;
+    padding-top: 50px;
+
+}
+.common_text h1{
+    font-size: 30px;
+    padding-bottom: 7px;
+}
+.common_text p{
+    padding-bottom: 50px;
+    color: #333333;
+}
+.room_part{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.room{
+    width: 32%;
+    padding: 10px;
+}
+.room img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.room h3{
+    text-align: center;
+    padding-top: 20px;
+    color: #333333;
+}
+/* Roompart CSS End */
+/* Productpart CSS Start */
+#product_part{
+    width: 100%;
+    background: #ffff;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.products{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.product{
+    width: 23%;
+    background: #F4F5F7;
+    height: auto;
+    margin-bottom: 30px;
+    position: relative;
+}
+.product picture img{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10px;
+}
+.product h4{
+    display: inline-block;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+.product h3{
+    color: #3A3A3A;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+.product h5{
+    padding-bottom: 5px;
+    color: #B0B0B0;
+    padding-left: 15px;
+    font-weight: 600;
+}
+.discount{
+    width: 30px;
+    height: 30px;
+    background: #E97171;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.product_overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #0000007e;
+    transition: all 0.4s;
+    opacity: 0;
+}
+.overlay_content{
+    position: absolute;
+    top: 45%;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+}
+.banner_btn{
+    width: 100%;
+    
+}
+.product_btn button{
+    padding: 10px 35px;
+    margin-bottom: 15px;
+    color: #B88E2F;
+    font-weight: 500;
+    background: white;
+    border: none;
+    outline: none;
+}
+.
+.product_icon{
+    width: 100%;
+
+}
+
+.product_icon a{
+    color: #ffff;
+    font-size: 14px;
+    padding: 0px 7px;
+}
+.product_icon a i{
+    padding-right: 5px;
+}
+.product:hover .product_overlay{
+    opacity: 1;
+}
+.more_btn{
+    text-align: center;
+    padding: 10px 0px;
+}
+.more_btn button{
+    padding: 10px 40px;
+    background: white;
+    color: #B88E2F;
+    border: 2px solid #B88E2F;
+    font-size: 15px;
+    font-weight: 600;
+}
+/* Productpart CSS End */
+/* Footerpart CSS Start */
+#footer{
+    width: 100%;
+    background: white;
+    padding: 80px 0px;
+    border-top: 2px solid #D9D9D9;
+}
+.footer_part{
+    width: 100%;
+    border-bottom: 2px solid #D9D9D9;
+    display: flex;
+}
+.footer_left{
+    width: 40%;
+}
+.footer_left p{
+    color: #9F9F9F;
+    font-size: 16px;
+    padding-top: 30px;
+}
+.footer_right{
+    width: 60%;
+}
+.footer_right_parts{
+    width: 100%;
+    display: flex;
+}
+.footer_right_part{
+    width: 30%;
+}
+.footer_right_part h3{
+    color: #9F9F9F;
+    font-size: 16px;
+    padding-bottom: 35px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+}
+.links a{
+    padding-bottom: 25px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000000;
+}
+.newsletter{
+    display: flex;
+}
+.newsletter input{
+    padding: 10px 20px 0px 0px;
+    border: none;
+    outline: none;
+    color: #9F9F9F;
+    font-size: 15px;
+    border-bottom: 2px solid #333333;
+}
+.newsletter button{
+    padding-top: 10px;
+    font-size: 15px;
+    outline: none;
+    margin-left: 10px;
+    border: none;
+    font-weight: 600;
+    background: white;
+    border-bottom: 2px solid #333333;
+}
+.footer_text{
+    width: 100%;
+    padding: 30px 0px;
+    font-size: 15px;
+}
+/* Footerpart CSS End */
+/* Homepage CSS End */

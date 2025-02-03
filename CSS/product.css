@@ -1,0 +1,502 @@
+/* ALL Common CSS Start */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", serif;
+}
+body{
+    background: #dddd;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1240px;
+    margin: 0px auto;
+}
+/* ALL Common CSS End */
+/* Headerpart CSS Start */
+#header{
+    width: 100%;
+    background: #ffffff;
+}
+.header_part{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+.logo{
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+.logo a img{
+    width: 185px;
+    height: 41px;
+}
+.menu_list{
+    width: 50%;
+}
+.menu_list ul li{
+    display: inline-block;
+    padding: 0px 30px;    
+}
+.menu_list ul li a{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.menu_bar{
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+.menu_bar a{
+    padding: 0px 20px;
+}
+/* Headerpart CSS End */
+/* Linkpart CSS Start */
+#link_part{
+    width: 100%;
+    padding: 30px 0px;
+    background: #F9F1E7;
+}
+.link_page{
+    width: 100%;
+}
+.link_page span{
+    color: #9F9F9F;
+    padding-left: 15px;
+}
+.link_page i{
+    padding-left: 15px;
+    color: #000000;
+    font-size: 13px;
+}
+/* Linkpart CSS End */
+/* Detailpart CSS Start */
+#details{
+    width: 100%;
+    background: white;
+    padding: 100px 0px;
+}
+.detail_part{
+    width: 100%;
+    display: flex;
+}
+.left_detail{
+    width: 50%;
+    display: flex;
+}
+.left_detail_part1{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px ;
+}
+.left_detail_part1 picture{
+    width: 70%;
+    height: 70%;
+    background: #F9F1E7;
+    margin: 10px 0px;
+    border-radius: 15px;
+}
+.left_detail_part1 picture img{
+    width: 100%;
+    height: 100%;
+}
+.left_detail_part2{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.left_detail_part2 picture{
+    width: 100%;
+    height: 100%;
+    background: #F9F1E7;
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+.left_detail_part2 picture img{
+    width: 100%;
+    height: 100%;
+}
+.right_detail{
+    width: 50%;
+    padding: 10px;
+    padding-left: 50px;
+}
+.right_detail h2{
+    font-weight: 500;
+}
+.right_detail h3{
+    font-size: 16px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    color: #9F9F9F;
+    padding-top: 5px;
+
+}
+.right_detail i{
+    padding-right: 5px;
+    font-size: 13px;
+    color: #FFC700;
+}
+.right_detail p{
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.right_detail h4{
+    font-size: 14px;
+    color: #9F9F9F;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+.size_btn{
+    width: 100%;
+    display: flex;
+}
+.size_1{
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F9F1E7;
+    padding: 4px 0px;
+    font-size: 13px;
+    margin: 9px 10px 10px 0px;
+    border-radius: 7px;
+
+}
+.color_box{
+    width: 100%;
+    display: flex;
+}
+.blue{
+    background: #816DFA;
+    margin-right: 10px;
+    width: 30px;    
+    margin: 9px 10px 10px 0px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+}
+.black{
+    background: #000000;
+    margin-right: 10px;
+    width: 30px;    
+    margin: 9px 10px 10px 0px;
+    height: 30px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.yellow{
+    background: #B88E2F;
+    margin: 9px 10px 10px 0px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.option{
+    width: 100%;
+    padding: 20px 0px;
+}
+#form{
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.form{
+    width: 30%;
+    display: flex;
+    float: right;
+    border-top: 1px solid #9F9F9F;
+    padding-top: 30px;
+    margin-right: 240px;
+}
+.left_part{
+    width: 20%;
+}
+.left_part h5{
+    color: #9F9F9F;
+    font-weight: 500;
+}
+.right_part{
+    width: 80%;
+
+}
+.right_part span{
+    padding-left: 5px;
+    font-weight: 500;
+    color: #9F9F9F;
+}
+.right_part i{
+    padding-left: 5px;
+    padding-right: 10px;
+}
+/* Detailpart CSS End */
+/* Descriptionpart CSS Start */
+#description{
+    width: 100%;
+    background: white;
+    padding: 50px 0px;
+    border-top: 1px solid #9F9F9F;
+    border-bottom: 1px solid #9F9F9F;
+}
+.description_part{
+    width: 100%;
+    margin: 0px auto;
+}
+.description_intro{
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.description_intro span{
+    padding-right: 35px;
+    font-weight: 600;
+}
+.description_text{
+    width: 82%;
+    margin: auto;
+}
+.description_text p{
+    width: 100%;
+    padding: 10px 30px;
+    font-size: 13px;
+    color: #9F9F9F;
+}
+.description_img{
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+.description_img img{
+    border-radius: 10px;
+    background: #F9F1E7;
+}
+/* Descriptionpart CSS End */
+/* Relatedpart CSS Start */
+#product_part{
+    width: 100%;
+    background: #ffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.products{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.product{
+    width: 23%;
+    background: #F4F5F7;
+    height: auto;
+    margin-bottom: 30px;
+    position: relative;
+}
+.product picture img{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10px;
+}
+.product h4{
+    display: inline-block;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+.product h3{
+    color: #3A3A3A;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+.product h5{
+    padding-bottom: 5px;
+    color: #B0B0B0;
+    padding-left: 15px;
+    font-weight: 600;
+}
+.discount{
+    width: 30px;
+    height: 30px;
+    background: #E97171;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.product_overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #0000007e;
+    transition: all 0.4s;
+    opacity: 0;
+}
+.overlay_content{
+    position: absolute;
+    top: 45%;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+}
+.banner_btn{
+    width: 100%;
+    
+}
+.product_btn button{
+    padding: 10px 35px;
+    margin-bottom: 15px;
+    color: #B88E2F;
+    font-weight: 500;
+    background: white;
+    border: none;
+    outline: none;
+}
+.
+.product_icon{
+    width: 100%;
+
+}
+
+.product_icon a{
+    color: #ffff;
+    font-size: 14px;
+    padding: 0px 7px;
+}
+.product_icon a i{
+    padding-right: 5px;
+}
+.product:hover .product_overlay{
+    opacity: 1;
+}
+.more_btn{
+    text-align: center;
+    padding: 10px 0px;
+    margin: 0px auto;
+}
+.more_btn button{
+    padding: 10px 40px;
+    background: white;
+    color: #B88E2F;
+    border: 2px solid #B88E2F;
+    font-size: 15px;
+    font-weight: 600;
+}
+#product_part h1{
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: 500;
+    font-size: 35px;
+}
+/* Relatedpart CSS End */
+/* Footerpart CSS Start */
+#footer{
+    width: 100%;
+    background: white;
+    padding: 80px 0px;
+    margin-top: 50px;
+    border-top: 2px solid #D9D9D9;
+}
+.footer_part{
+    width: 100%;
+    border-bottom: 2px solid #D9D9D9;
+    display: flex;
+}
+.footer_left{
+    width: 40%;
+}
+.footer_left p{
+    color: #9F9F9F;
+    font-size: 16px;
+    padding-top: 30px;
+}
+.footer_right{
+    width: 60%;
+}
+.footer_right_parts{
+    width: 100%;
+    display: flex;
+}
+.footer_right_part{
+    width: 30%;
+}
+.footer_right_part h3{
+    color: #9F9F9F;
+    font-size: 16px;
+    padding-bottom: 35px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+}
+.links a{
+    padding-bottom: 25px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000000;
+}
+.newsletter{
+    display: flex;
+}
+.newsletter input{
+    padding: 10px 20px 0px 0px;
+    border: none;
+    outline: none;
+    color: #9F9F9F;
+    font-size: 15px;
+    border-bottom: 2px solid #333333;
+}
+.newsletter button{
+    padding-top: 10px;
+    font-size: 15px;
+    outline: none;
+    margin-left: 10px;
+    border: none;
+    font-weight: 600;
+    background: white;
+    border-bottom: 2px solid #333333;
+}
+.footer_text{
+    width: 100%;
+    padding: 30px 0px;
+    font-size: 15px;
+}
+/* Footerpart CSS End */
