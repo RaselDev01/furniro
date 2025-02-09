@@ -134,7 +134,8 @@ h1,h2,h3,h4,h5,h6,p{
     color: #333333;
 }
 .room_part{
-    width: 100%;
+    width: 85%;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
